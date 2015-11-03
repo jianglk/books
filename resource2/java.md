@@ -1,5 +1,6 @@
 ### 以下是常用的代码收集，没有任何技术含量，只是填坑的积累。转载请注明出处，谢谢。
 *java中的验证
+
 `/**
      *  
      * @param  str
@@ -16,6 +17,7 @@
     }`
     
 *java json 数组的转换
+
 `List<PageData> list=new ArrayList<PageData>();
 JSONArray array = JSONArray.fromObject(str);
   for (int i = 0; i < array.size(); i++) {  
